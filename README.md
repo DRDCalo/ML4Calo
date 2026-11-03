@@ -16,7 +16,11 @@ prefix:
 | Energy regression | `EReg_` |
 | High-level particle-flow reconstruction | `PFlow_` |
 
-Available models:
-- [`PID_PointNet`](PID_PointNet/): tiny PointNet for EM/hadronic shower identification.
+*Contributions covering further ML applications in calorimetry are welcome. List to be expended.*
 
-Contributions covering further ML applications in calorimetry are welcome.
+
+## Available models:
+| Package | Task | Model | Interface in k4hep | Publication | Contributor
+|------|------|------|------|------|------|
+| [`PID_PointNet`](PID_PointNet/) | EM/hadronic shower ID | tiny PointNet | [MLShowerID](https://github.com/DRDCalo/SoftwareTutorials/tree/main/GaudiTutorial/MLShowerID) | - | Fangyi Guo |
+
